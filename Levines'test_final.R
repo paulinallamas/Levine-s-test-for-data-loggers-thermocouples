@@ -75,6 +75,6 @@ dbWriteTable(DBTT, "TC_DL_test", DS4, col.names = TRUE, header = FALSE, overwrit
 dbReadTable(con, "mtcars")
 
 #Add some code
-a <- 1 + 1
+a <- 1 + 3
 
 
