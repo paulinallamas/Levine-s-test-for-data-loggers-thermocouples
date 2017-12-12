@@ -74,6 +74,7 @@ sqldf("attach 'DBTT.sqlite' as new") #This line code is just in case that you wa
 dbWriteTable(DBTT, "TC_DL_test", DS4, col.names = TRUE, header = FALSE, overwrite = TRUE, append = FALSE, temporay= FALSE)
 dbReadTable(con, "mtcars")
 
-
+#Add some code
+a <- 1 + 1
 
 
